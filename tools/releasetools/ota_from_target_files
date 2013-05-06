@@ -415,15 +415,15 @@ def WriteFullOTAPackage(input_zip, output_zip):
   if OPTIONS.wipe_user_data:
     script.FormatPartition("/data")
 
-  script.Print("############################################################");
-  script.Print("# ____     ______   ____               ______   __  __     #");
-  script.Print("#/\  _`\  /\  _  \ /\  _`\    /'\_/`\ /\  _  \ /\ \/\ \    #");
-  script.Print("#\ \ \L\ \\ \ \L\ \\ \ \/\_\ /\      \\ \ \L\ \\ \ `\\ \   #");
-  script.Print("# \ \ ,__/ \ \  __ \\ \ \/_/_\ \ \__\ \\ \  __ \\ \ , ` \  #");
-  script.Print("#  \ \ \/   \ \ \/\ \\ \ \L\ \\ \ \_/\ \\ \ \/\ \\ \ \`\ \ #");
-  script.Print("#   \ \_\    \ \_\ \_\\ \____/ \ \_\\ \_\\ \_\ \_\\ \_\ \_\#");
-  script.Print("#    \/_/     \/_/\/_/ \/___/   \/_/ \/_/ \/_/\/_/ \/_/\/_/#");
-  script.Print("############################################################");
+  script.Print("#####################################################");
+  script.Print("# ____                                              #");
+  script.Print("#/\  _`\                /'\_/`\                     #");
+  script.Print("#\ \ \L\ \ __      ___ /\      \     __      ___    #");
+  script.Print("# \ \ ,__/'__`\   /'___\ \ \__\ \  /'__`\  /' _ `\  #");
+  script.Print("#  \ \ \/\ \L\.\_/\ \__/\ \ \_/\ \/\ \L\.\_/\ \/\ \ #");
+  script.Print("#   \ \_\ \__/.\_\ \____\\ \_\\ \_\ \__/.\_\ \_\ \_\#");
+  script.Print("#    \/_/\/__/\/_/\/____/ \/_/ \/_/\/__/\/_/\/_/\/_/#");
+  script.Print("#####################################################");
 
   if "selinux_fc" in OPTIONS.info_dict:
     WritePolicyConfig(OPTIONS.info_dict["selinux_fc"], output_zip)
