@@ -419,7 +419,7 @@ def WriteFullOTAPackage(input_zip, output_zip):
   script.Print("================================================.");
   script.Print("     .-.   .-.     .--.                         |");
   script.Print("    | OO| | OO|   / _.-' .-.   .-.  .-.   .''.  |");
-  script.Print("    |   | |   |   \  '-. '-'   '-'  '-'   '..'  |);
+  script.Print("    |   | |   |   \  '-. '-'   '-'  '-'   '..'  |");
   script.Print("    '^^^' '^^^'    '--'                         |");
   script.Print("===============.  .-.  .================.  .-.  |");
   script.Print("               | |   | |                |  '-'  |");
