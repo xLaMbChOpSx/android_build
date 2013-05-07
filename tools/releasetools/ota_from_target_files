@@ -423,13 +423,13 @@ def WriteFullOTAPackage(input_zip, output_zip):
   script.Print("#   \ \ \/   \ \ \/\ \\ \ \L\ \  #");
   script.Print("#    \ \_\    \ \_\ \_\\ \____/  #");
   script.Print("#     \/_/     \/_/\/_/ \/___/   #");
-  script.Print("#  			 	 #");
+  script.Print("#                                #");
   script.Print("#   ___ ___      __      ___     #");
   script.Print("# /' __` __`\  /'__`\  /' _ `\   #");
   script.Print("# /\ \/\ \/\ \/\ \L\.\_/\ \/\ \  #");
   script.Print("# \ \_\ \_\ \_\ \__/.\_\ \_\ \_\ #");
   script.Print("#  \/_/\/_/\/_/\/__/\/_/\/_/\/_/ #");
-  script.Print("#  			 	 #");
+  script.Print("#                                #");
   script.Print("##################################"); 
   
   if "selinux_fc" in OPTIONS.info_dict:
