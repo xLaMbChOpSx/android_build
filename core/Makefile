@@ -836,7 +836,7 @@ $(INSTALLED_FILES_FILE): $(FULL_SYSTEMIMAGE_DEPS)
 
 .PHONY: installed-file-list
 installed-file-list: $(INSTALLED_FILES_FILE)
-ifneq ($(filter sdk win_sdk,$(MAKECMDGOALS)),)
+ifneq ($(filter win_sdk winsdk-coretools,$(MAKECMDGOALS)),)
 $(call dist-for-goals, sdk win_sdk, $(INSTALLED_FILES_FILE))
 endif
 ifneq ($(filter sdk_addon,$(MAKECMDGOALS)),)
